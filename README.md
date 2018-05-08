@@ -1,2 +1,14 @@
 # koa-movie
-koa2+node+mongodb构建一个电影网站
+
+## 启动
+```shell
+# 环境
+node v8.4.0 要支持async语法
+koa  v2.x
+
+# 启动
+cd movie
+npm i
+npm start
+```
+
