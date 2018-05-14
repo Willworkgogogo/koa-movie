@@ -2,13 +2,14 @@ const Koa = require('koa')
 const app = new Koa()
 const views = require('koa-views')
 const path = require('path')
-const pug = require('pug')
-const {normalTpl, pugTpl} = require('./templates/index')
+const {normal} = require('./templates/index')
 
-app.use(views(path.resolve(__dirname, './views'), {
+// 模板解析器
+app.use(views(path.resolve(__dirname, 'views'), {
   extension: 'pug'
 }))
 
+// 首页
 app.use(async (ctx, next) => {
   await ctx.render('index', {
     you: 'Janet',
