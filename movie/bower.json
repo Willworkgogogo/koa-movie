@@ -1,0 +1,21 @@
+{
+  "name": "movie",
+  "description": "",
+  "main": "server/index.js",
+  "authors": [
+    "wangweiwei <will_workhard@163.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/Willworkgogogo/koa-movie",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1.7",
+    "bootstrap": "^4.1.1"
+  }
+}
